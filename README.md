@@ -53,10 +53,10 @@ Example: ...
 #### [2\. Organizations](https://repository.nfdi4cat.org/dataverse/organizations)
 
 1.  **Scope of work:** area for internal collaboration within one organizations, e.g. some institution.
-2.  **Creation of the organizations:** see [projects](https://github.com/nfdi4cat/repo4cat/edit/main/README.md#1-projects) above. Access to this dataverse must be asked by administrators. Naming of identifier (URL) **".../organization-your-organization-name"**.
-3.  **User groups:** see [projects](https://github.com/nfdi4cat/repo4cat/edit/main/README.md#1-projects) above. Naming for the organizational user groups - must be created from the prefix **"ug-org-"**, organization name and related role, like **"ug-org-your-organization-name-admins"** and **"ug-org-your-organization-name-curators"** with related permissions.
-4.  **New users:** see [projects](https://github.com/nfdi4cat/repo4cat/edit/main/README.md#1-projects) above using specific user group prefix for organizations.
-5.  **Access rights:** see [projects](https://github.com/nfdi4cat/repo4cat/edit/main/README.md#1-projects) above using specific user group prefix for organizations.
+2.  **Creation of the organizations:** see [projects](#1-projects) above. Access to this dataverse must be asked by administrators. Naming of identifier (URL) **".../organization-your-organization-name"**.
+3.  **User groups:** see [projects](#1-projects) above. Naming for the organizational user groups - must be created from the prefix **"ug-org-"**, organization name and related role, like **"ug-org-your-organization-name-admins"** and **"ug-org-your-organization-name-curators"** with related permissions.
+4.  **New users:** see [projects](#1-projects) above using specific user group prefix for organizations.
+5.  **Access rights:** see [projects](#1-projects) above using specific user group prefix for organizations.
 
 Example: ...
 
