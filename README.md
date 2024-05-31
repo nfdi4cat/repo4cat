@@ -53,17 +53,27 @@ Example: ...
 #### [2\. Organizations](https://repository.nfdi4cat.org/dataverse/organizations)
 
 1.  **Scope of work:** area for internal collaboration within one organizations, e.g. some institution.
-2.  **Creation of the organizations:** see [projects](#1-projects) above. Access to this dataverse must be asked by administrators. Naming of identifier (URL) **".../organization-your-organization-name"**.
+2.  **Creation of the organization:** see [projects](#1-projects) above. Access to this dataverse must be asked by administrators. Naming of identifier (URL) **".../organization-your-organization-name"**.
 3.  **User groups:** see [projects](#1-projects) above. Naming for the organizational user groups - must be created from the prefix **"ug-org-"**, organization name and related role, like **"ug-org-your-organization-name-admins"** and **"ug-org-your-organization-name-curators"** with related permissions.
 4.  **New users:** see [projects](#1-projects) above using specific user group prefix for organizations.
 5.  **Access rights:** see [projects](#1-projects) above using specific user group prefix for organizations.
 
 Example: ...
 
-#### [3\. Single publications](https://repository.nfdi4cat.org/dataverse/single-publications)
+#### [3\. Personal dataverses](https://repository.nfdi4cat.org/dataverse/personal)
+
+1.  **Scope of work:** area to store user's personal dataverses to work alone or in cooperation with colleagues.
+2.  **Creation of the dataverse:** every user can create own dataverse. Please create your personal dataverse with an **identifier as "name-surname"** (with a minus "-" sign, it will be used in URL). Name of your dataverse can be flexible, e.g. "Name Surname".
+3.  **User groups:** user who has created a personal dataverse is automatically an administrator of this dataverse and that's why can create custom user groups inside of this dataverse or just invite other users without group creation. Naming of user groups is free, but is better to use some naming system like e.g. in [projects](#1-projects) above.
+4.  **New users:**  every user account has access to this area, no specific creations are needed.
+5.  **Access rights:** same access rights for every user with the role **"Dataverse Creator"**.
+
+Example: ...
+
+#### [4\. Single publications](https://repository.nfdi4cat.org/dataverse/single-publications)
 
 1.  **Scope of work:** area for single publications (datasets), available for every researcher **independent from the project or organization**. **Important:** only datasets can be created!
-2.  **Creation of the publication:** Every user can create own "dataset" as a separate publication.
+2.  **Creation of the publication:** every user can create own "dataset" as a separate publication.
 3.  **User groups:** no user groups needed. Roles are same for every user - possibility to create own "dataset" (publication).
 4.  **New users:** every user account has access to this area, no specific creations are needed.
 5.  **Access rights:** same access rights for every user with the role **"Dataset Creator"**.
