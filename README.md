@@ -2,28 +2,28 @@
 
 Welcome to NFDI4Cat Central Data Repository, a platform dedicated to facilitating the storage, organization, and sharing of research data from catalysis science.
 
-https://repository.nfdi4cat.org/
+<a href="https://repository.nfdi4cat.org" target="_blank">https://repository.nfdi4cat.org</a>
 
 Below you can find the most important information about this repository.
 
-Do you have some nice idea or we have to make something better - please create an [issue](https://github.com/nfdi4cat/repo4cat/issues).
+Do you have some nice idea or we have to make something better - please create an <a href="https://github.com/nfdi4cat/repo4cat/issues" target="_blank">issue</a>.
 
 ***Repo4Cat - we create repository togehter!***
 
 # Useful links
 
-* Repository is based on [Dataverse software](https://dataverse.org)
-* Official Dataverse documentation: [here](https://guides.dataverse.org/en/latest/)
-  * User Guide: [here](https://guides.dataverse.org/en/latest/user/index.html)
-  * Collection management (dataverse/dataset level): [here](https://guides.dataverse.org/en/latest/user/dataverse-management.html)
-  * Roles and permissions (dataverse level): [here](https://guides.dataverse.org/en/latest/user/dataverse-management.html#roles-permissions)
-  * File management (dataset level): [here](https://guides.dataverse.org/en/latest/user/dataset-management.html)
+* Repository is based on <a href="https://dataverse.org" target="_blank">Dataverse software</a>
+* Official Dataverse documentation: <a href="https://guides.dataverse.org/en/latest/" target="_blank">here</a>
+  * User Guide: <a href="https://guides.dataverse.org/en/latest/user/index.html" target="_blank">here</a>
+  * Collection management (dataverse/dataset level): <a href="https://guides.dataverse.org/en/latest/user/dataverse-management.html" target="_blank">here</a>
+  * Roles and permissions (dataverse level): <a href="https://guides.dataverse.org/en/latest/user/dataverse-management.html#roles-permissions" target="_blank">here</a>
+  * File management (dataset level): <a href="https://guides.dataverse.org/en/latest/user/dataset-management.html" target="_blank">here</a>
 
 # Accounts
 
 **Create a personal account:**
 
-* use "Sign up for a Dataverse account" button on the [login page](https://repository.nfdi4cat.org/loginpage.xhtml?redirectPage=dataverse.xhtml).
+* use "Sign up for a Dataverse account" button on the <a href="https://repository.nfdi4cat.org/loginpage.xhtml?redirectPage=dataverse.xhtml" target="_blank">login page</a>.
 * please use your real "Given Name" and "Family Name".
 * please set "Username" as combination of **"GivenName.FamilyName"** all with *small letters without quotes*, e.g. **max.mustermann**. This approach will allow us to find each other and share information with each other on an easy way in Dataverse.
 * set a real Email address to allow Dataverse to send you notifications. Sometimes it is practical to make some filters in your mailing system to sort emails from Dataverse in a separate folder, because every creation of information will be followed by a mail.
