@@ -36,15 +36,15 @@ Do you have some nice idea or we have to make something better - please create a
 
 # Internal structure - Dataverses/Datasets
 
-NFDI4Cat Central Data Repository provides a concept of the internal structure. It includes some top-level dataverses which can be extended by the users.
+NFDI4Cat Central Data Repository provides an internal structure. It includes some top-level dataverses which can be extended by the users.
 
 The structure is following:
 
 #### [1\. Projects](https://repository.nfdi4cat.org/dataverse/projects)
 
 1. **Scope of work:** area for project-related collaboration.
-2. **Creation of the project:** access to this dataverse must be asked by administrators (write a short message with the project name via "Contact" button there: https://repository.nfdi4cat.org/dataverse/projects . Administartors will create a new dataverse "Your Project Name" with the identifier (URL) **".../project-your-project-name"** and set 1 person as a local administrator there (via special group, see "User groups" below ). This person will manage after that the access rights for this specific dataverse - who can access, what will be allowed to do, etc. (via "Edit -> Permissions" buttons).
-3. **User groups:** every project must have specific user groups, which is administrated via local administrators of this dataverse (==project). Naming for the user groups - must be created from the prefix **"ug-prj-"**, group name and related role, like **"ug-prj-your-project-name-admins"** and **"ug-prj-your-project-name-curators"** with related permissions. The first group "...-admins" will be created by the repository main administrators (Support team) and 1 person will be added to this group - the person, who has asked about the new project.
+2. **Creation of the project:** access to this dataverse must be asked by administrators (write a short message with the project name via "Contact" button there: https://repository.nfdi4cat.org/dataverse/projects . Administartors will create a new dataverse "Your Project Name" with the identifier (URL) **".../project-your-project-name"** and will set one person as a local administrator there (via special group, see "User groups" below ). This person will manage after that the access rights for this specific dataverse - who can access, what will be allowed to do, etc. (via "Edit -> Permissions" buttons).
+3. **User groups:** every project must have specific user groups, which are administrated by local administrators of this dataverse (==project). Naming for the user groups - must be created from the prefix **"ug-prj-"**, group name and related role, like **"ug-prj-your-project-name-admins"** and **"ug-prj-your-project-name-curators"** with related permissions. The first group "...-admins" will be created by the repository main administrators (Support team) and one person will be added to this group - the person, who has asked about the new project. More detailed information about avaialble roles and permissions you can find above under [useful links](#useful-links).
 4. **New users:** will be managed by the local administrators of the project (user group **"ug-prj-your-project-name-admins"**) via specific user groups like **"ug-prj-your-project-name-curators"** for curators or user groups with other roles (see "User groups" above).
 5. **Access rights:** will be managed by the local administrators of the project (user group **"ug-prj-your-project-name-admins"**) via specific user groups (see "User groups" above).
 
