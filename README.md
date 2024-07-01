@@ -36,7 +36,7 @@ In Dataverse (the repository software) permissions are controlled at the "datave
 * Based on the Dataverse access control system users can have different access rights (permissions) in different dataverses. Every user can create a personal "dataverse" and then decide, what other users are allowed to do with their dataverse via the "Edit -> Permissions" button.
 * Access to some areas in the repository must be explicitly granted by administrators, see information below.
 
-## Internal structure - Dataverses/Datasets
+## Internal structure: dataverses & datasets
 
 The NFDI4Cat Central Data Repository comes with a pre-defined internal structure.
 It includes a few top-level dataverses which can be further extended by the users with (sub-)dataverses.
@@ -75,7 +75,7 @@ Example: ...
 
 ### [4\. Single publications](https://repository.nfdi4cat.org/dataverse/single-publications)
 
-1. **Scope of work:** area for single publications (datasets), available for every researcher **independent from the project or organization**. **Important:** only datasets can be created!
+1. **Scope of work:** area for single publications (datasets), available for every researcher **independent from the project or organization**. **Important:** only datasets can be created here!
 2. **Creation of the publication:** every user can create own "dataset" as a separate publication.
 3. **User groups:** no user groups needed. Roles are same for every user - possibility to create own "dataset" (publication).
 4. **New users:** every user account has access to this area, no specific creations are needed.
