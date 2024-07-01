@@ -31,8 +31,10 @@ Do you have some nice idea or we have to make something better? Please create an
 
 **Permissions and access rights:**
 
-* Based on the Dataverse access control system users can have different access rights (permissions) in different "dataverses" (here "dataverse" == folder, or similar to folder structure, see useful links above). Every user can create a personal "dataverse" and then decide, what other users can do with this dataverse via the "Edit -> Permissions" button.
-* Access to some areas of the repository must be explicitly granted by administrators, see information below.
+In Dataverse (the repository software) permissions are controlled at the "dataverse collections" level. Note, a "dataverse collection" (often just called a "dataverse") is a folder-like structure that can store one or more datasets (which in turn contain the files to share). A dataverse can also contain other dataverses (for more, see useful links above).
+
+* Based on the Dataverse access control system users can have different access rights (permissions) in different dataverses. Every user can create a personal "dataverse" and then decide, what other users are allowed to do with their dataverse via the "Edit -> Permissions" button.
+* Access to some areas in the repository must be explicitly granted by administrators, see information below.
 
 ## Internal structure - Dataverses/Datasets
 
