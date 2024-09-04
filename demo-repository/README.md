@@ -1,6 +1,6 @@
 # NFDI4Cat Demo Repository
 
-Welcome to NFDI4Cat Demo Repository, a demo platform dedicated to test purposes to facilitating the storage, organization, and sharing of research data from catalysis science.
+Welcome to NFDI4Cat Demo Repository, a demo platform dedicated to test and understand facilitating the storage, organization, and sharing of research data from catalysis science.
 
 https://demo-repository.nfdi4cat.org
 
@@ -21,7 +21,7 @@ Do you have some nice idea or we have to make something better? Please create an
 * You can set "Username" as combination of **"GivenName.FamilyName"** all with *small letters without quotes*, e.g. **max.mustermann**. This approach will allow us to find each other and share information with each other on an easy way in Dataverse.
 * You can set a real Email address to allow Dataverse to send you notifications. Sometimes it is practical to make some filters in your mailing system to sort emails from Dataverse in a separate folder, because every creation of information will be followed by a mail.
 * Please set a strong password, e.g. using some password generator or just "openssl rand -base64 18" command in Linux (you can replace "18" with other number to get different length and symbols).
-* You can even create multiple accounts, ideally (but not necessary) with real Email addresses. It alows you to make experiments with Dataverse permissions and access rights - switching between different accounts will show you, how access mechanisms are working in real life. If you use not-real Email address please be sure, that your password is stored on a proper way (ideally in some password manager), because "forget your password" option can not work with not-real Email addresses.  
+* You can even create multiple accounts, ideally (but not necessary) with real Email addresses. It alows you to make experiments with Dataverse permissions and access rights - switching between different accounts will show you, how access mechanisms are working in real life. If you use not-real Email address please be sure, that your password is stored on a proper way (ideally in some password manager), because "forgot your password" option can not work with not-real Email addresses.  
 
 **Permissions and access rights:**
 
@@ -40,7 +40,7 @@ The structure is the following:
 3. **User groups:** every project must have specific user groups, which are administrated by local administrators of this dataverse (==project). Naming for the user groups - should be created from the prefix **"ug-"** and related role, like **"ug-admin"** and **"ug-curator"** with related permissions. Theses user groups must be created by you via "Edit -> Groups -> Creatre Group" buttons. More detailed information about avaialble roles and permissions you can find above under [useful links](#useful-links). All user groups will be visible within your dataverse and all sub-dataverses (hierarchical principle).
 4. **New users:** will be managed by the local administrators of the project (user group **"ug-admin"**) via specific user groups like **"ug-curator"** for curators or user groups with other roles (see "User groups" above).
 5. **Access rights:** will be managed by the local administrators of the project (user group **"ug-admin"**) via specific user groups (see "User groups" above).
-6. **Sub-dataverses:** please use for the identifier (URL) a combination of the project identifier and the name of your sub-dataverse with minus "-" sign as a separator, e.g. **".../your-project-name-sub-dataverse-name"** (please use some short form if possible). 
+6. **Sub-dataverses:** please use for the identifier (URL) a combination of the project identifier and the name of your sub-dataverse with a minus "-" sign as a separator, e.g. **".../your-project-name-sub-dataverse-name"** (please use some short form if possible). 
 
 Example: ...
 
