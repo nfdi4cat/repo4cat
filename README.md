@@ -8,8 +8,6 @@ Below you can find the most important information about this repository.
 
 Do you have some nice idea or we have to make something better? Please create an [issue](https://github.com/nfdi4cat/repo4cat/issues) and let us know!
 
-Do you need a playground for any tests and experiments? Please try our [demo repository](https://github.com/nfdi4cat/repo4cat/tree/main/demo-repository) - a full functionality and already prepared training materials will help you to make the first steps!
-
 ***Repo4Cat - Let`s collect our Catalysis data together!***
 
 ## Useful links
@@ -21,8 +19,10 @@ Do you need a playground for any tests and experiments? Please try our [demo rep
   * [Roles and permissions](https://guides.dataverse.org/en/latest/user/dataverse-management.html#roles-permissions) (dataverse level)
   * [File management](https://guides.dataverse.org/en/latest/user/dataset-management.html) (dataset level)
  
+## Demo repository
 
-
+Do you need a playground for any tests and experiments? Please also try our [demo repository](https://github.com/nfdi4cat/repo4cat/tree/main/demo-repository) - a full functionality and already prepared training materials will help you to make the first steps!
+ 
 ## Accounts
 
 **Create a personal account:**
