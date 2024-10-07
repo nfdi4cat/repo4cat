@@ -11,6 +11,10 @@ Do you have some nice idea or we have to make something better? Please create an
 ## Useful links
 
 * See [documentation of the NFDI4Cat Central Data Repository](https://github.com/nfdi4cat/repo4cat/tree/main#useful-links).
+* Please use [prepared training materials](https://demo-repository.nfdi4cat.org/dataverse/nfdi4cat-training-materials) to make first steps with Dataverse:
+  * a [guideline](https://demo-repository.nfdi4cat.org/dataset.xhtml?persistentId=hdl:21.T11978/4Cat-demo/a3s7-7dwa) provides an introduction to the NFDI4Cat Central Data Repository and describes the most important working moments with the repository (what is also applicable to the demo repository).
+  * [collected exercises](https://demo-repository.nfdi4cat.org/dataset.xhtml?persistentId=hdl:21.T11978/4Cat-demo/4dp5-3drr) will help you to get to know Dataverse step by step and then to play with the repository on your own - from creation of own dataverses/datasets to communication with Dataverse using API requests.
+
 
 ## Accounts
 
