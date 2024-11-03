@@ -18,6 +18,7 @@ Do you have some nice idea or we have to make something better? Please create an
   * [Collection management](https://guides.dataverse.org/en/latest/user/dataverse-management.html) (dataverse/dataset level)
   * [Roles and permissions](https://guides.dataverse.org/en/latest/user/dataverse-management.html#roles-permissions) (dataverse level)
   * [File management](https://guides.dataverse.org/en/latest/user/dataset-management.html) (dataset level)
+* First steps in NFDI4Cat Central Data Repository, guideline - https://hdl.handle.net/21.11165/4Cat/b4au-u4m3  
  
 ## Demo repository
 
