@@ -51,20 +51,20 @@ The structure is the following:
 ### [1\. Projects](https://repository.nfdi4cat.org/dataverse/projects)
 
 1. **Scope of work:** area for collaboration in projects that involve multiple institutions.
-2. **Creation of the project:** access to this dataverse must be requested from administrators (write a short message with the project name via "Contact" button there: https://repository.nfdi4cat.org/dataverse/projects . Administartors will create a new dataverse "Your Project Name" with the identifier (URL) **".../project-your-project-name"** and will set one person as a local administrator there (via special group, see "User groups" below ). This person will manage after that the access rights for this specific dataverse - who can access, what will be allowed to do, etc. (via "Edit -> Permissions" buttons).
-3. **User groups:** every project must have specific user groups, which are administrated by local administrators of this dataverse (==project). Naming for the user groups - must be created from the prefix **"ug-prj-"**, group name and related role, like **"ug-prj-your-project-name-admin"** and **"ug-prj-your-project-name-curator"** with related permissions. The first group "...-admin" will be created by the repository main administrators (Support team) and one person will be added to this group - the person, who has asked about the new project. More detailed information about avaialble roles and permissions you can find above under [useful links](#useful-links).
-4. **New users:** will be managed by the local administrators of the project (user group **"ug-prj-your-project-name-admin"**) via specific user groups like **"ug-prj-your-project-name-curator"** for curators or user groups with other roles (see "User groups" above).
-5. **Access rights:** will be managed by the local administrators of the project (user group **"ug-prj-your-project-name-admin"**) via specific user groups (see "User groups" above).
+2. **Creation of the project:** access to this dataverse must be requested from administrators (write a short message with the project name via "Contact" button there: https://repository.nfdi4cat.org/dataverse/projects . Administartors will create a new dataverse "Your Project Name" with the identifier (URL) **".../your-project-name"** and will set one person as a local administrator there (via special group, see "User groups" below ). This person will manage after that the access rights for this specific dataverse - who can access, what will be allowed to do, etc. (via "Edit -> Permissions" buttons).
+3. **User groups:** every project must have specific user groups, which are administrated by local administrators of this dataverse (==project). Naming for the user groups - must be created from the prefix **"ug-"**, group name and related role in the plural form, like **"ug-your-project-name-admins"** (for admins) and **"ug-your-project-name-curators"** (for curators) or **"ug-your-project-name-dv-creators"** (for dataverse creators) with related permissions. The first group "...-admins" will be created by the repository main administrators (Support team) and one person will be added to this group - the person, who has asked about the new project. More detailed information about avaialble roles and permissions you can find above under [useful links](#useful-links). Configuration of the user groups can be done via the "Edit -> Groups" menu.
+4. **New users:** will be managed by the local administrators of the project (user group **"ug-your-project-name-admins"**) via specific user groups like e.g. **"ug-your-project-name-dv-creators"** for dataverse creators or user groups with other roles (see "User groups" above).
+5. **Access rights:** will be managed by the local administrators of the project (user group **"ug-your-project-name-admins"**) via specific user groups (see "User groups" above). Is proposed to allow users to only create new dataverses inside of the project dataverse (role "dataverse creator") and position "When a user adds a new dataset to this dataverse, which role should be automatically assigned to them on that dataset?" can be set to "contributor". Users then have to crate a perosonal dataverse, where inside they will be local admins automatically, so they can e.g. create new own dataverses and datasets inside, which can be published as well. Configuration of the access rights can be done via the "Edit -> Permissions" menu.
 
 Example: ...
 
 ### [2\. Organizations](https://repository.nfdi4cat.org/dataverse/organizations)
 
 1. **Scope of work:** area for internal collaboration within one organizations, e.g. some institution.
-2. **Creation of the organization:** see [projects](#1-projects) above. Access to this dataverse must be requested from administrators. Naming of identifier (URL) **".../organization-your-organization-name"**.
-3. **User groups:** see [projects](#1-projects) above. Naming for the organizational user groups - must be created from the prefix **"ug-org-"**, organization name and related role, like **"ug-org-your-organization-name-admin"** and **"ug-org-your-organization-name-curator"** with related permissions.
-4. **New users:** see [projects](#1-projects) above using specific user group prefix for organizations.
-5. **Access rights:** see [projects](#1-projects) above using specific user group prefix for organizations.
+2. **Creation of the organization:** see [projects](#1-projects) above. Access to this dataverse must be requested from administrators. Naming of identifier (URL) **".../your-organization-name"**.
+3. **User groups:** see [projects](#1-projects) above. Naming for the organizational user groups - must be created from the prefix **"ug-"**, organization name and related role in the plural form, like **"ug-your-organization-name-admins"** (for admins) and **"ug-your-organization-name-curators"** (for curators) or **"ug-your-organization-name-dv-creators"** (for dataverse creators) with related permissions.
+4. **New users:** see [projects](#1-projects) above using specific user group namimg style for organizations.
+5. **Access rights:** see [projects](#1-projects) above using specific user group namimg style for organizations.
 
 Example: ...
 
@@ -74,7 +74,7 @@ Example: ...
 2. **Creation of the dataverse:** every user can create own dataverse. Please create your personal dataverse with an **identifier as "name-surname"** (with a minus "-" sign, it will be used in URL). Name of your dataverse can be flexible, e.g. "Name Surname".
 3. **User groups:** user who has created a personal dataverse is automatically an administrator of this dataverse and that's why can create custom user groups inside of this dataverse or just invite other users without group creation. Naming of user groups is free, but is better to use some naming system like e.g. in [projects](#1-projects) above.
 4. **New users:**  every user account has access to this area, no specific creations are needed.
-5. **Access rights:** same access rights for every user with the role **"Dataverse Creator"**.
+5. **Access rights:** same access rights for every user with the role **"Dataverse Creator"**. Position "When a user adds a new dataset to this dataverse, which role should be automatically assigned to them on that dataset?" is set to "contributor".
 
 Example: ...
 
@@ -84,6 +84,6 @@ Example: ...
 2. **Creation of the publication:** every user can create own "dataset" as a separate publication.
 3. **User groups:** no user groups needed. Roles are same for every user - possibility to create own "dataset" (publication).
 4. **New users:** every user account has access to this area, no specific creations are needed.
-5. **Access rights:** same access rights for every user with the role **"Dataset Creator"**.
+5. **Access rights:** same access rights for every user with the role **"Dataset Creator"**. Position "When a user adds a new dataset to this dataverse, which role should be automatically assigned to them on that dataset?" is set to "curator", so users can publish their datasets directly without any approvement of the administrators.
 
 Example: ...
