@@ -1,7 +1,7 @@
 # This action runs when a pull request to main is created or updated
 # (but not when it is merged into main).
 
-name: CI on pull request create or update
+name: Test build for PRs
 on:
   pull_request_target:
     branches:
@@ -47,7 +47,6 @@ jobs:
           # install tagged version
           python -m pip install -r docs/requirements.txt
 
-XXX
       - name: Set dynamic environment variables.
         run: |
           echo "RUN_DATE=$(date +'%Y-%m-%dT%H%M')" >> $GITHUB_ENV
@@ -56,7 +55,6 @@ XXX
         run: |
           sphinx-build --nitpicky --fail-on-warning --keep-going docs docs/_build
           cp -r docs/_build/. publish/
-
 
       - name: Store publish dir (=pages) as artifact
         # This step is not required and may be removed.

@@ -2,13 +2,10 @@
 #
 # Workflow steps:
 # - checkout gh-pages for updating
-# - create joined vocabulary file in addition to split version
-# - create excel-file from turtle
-# - build pyLODE docs
 # - build sphinx docs/site
-# - publish docs, vocabulary-turtle files and excel-file to gh-pages
+# - publish new docs to gh-pages
 
-name: Build
+name: Build docs
 on:
   push:
     branches:

@@ -9,10 +9,10 @@ This is work in progress...
 ::::{grid} 3
 :::{grid-item-card}
 :link: https://github.com/nfdi4cat/repo4cat/
-**Documentation**, preview
+**Link A**, Anna
 ^^^
 
-```{image} _static/voc4cat-pylode-docs.png
+```{image} _static/fig_A.svg
 :align: center
 :alt: screenshot of documentation
 ```
@@ -23,10 +23,10 @@ This is work in progress...
 
 :::{grid-item-card}
 :link: https://github.com/nfdi4cat/repo4cat/
-**Link 2**, file2
+**Link B**, Berta
 ^^^
 
-```{image} _static/voc4cat-concept-sheet.png
+```{image} _static/fig_B.svg
 :align: center
 :alt: screenshot of file
 ```
@@ -35,11 +35,11 @@ This is work in progress...
 :::
 
 :::{grid-item-card}
-:link: https://w3id.org/nfdi4cat/voc4cat
-**Link 3**, file3
+:link: https://w3id.org/nfdi4cat/repo4cat/
+**Link C**, Charla
 ^^^
 
-```{image} _static/voc4cat-concept-sheet.png
+```{image} _static/fig_C.svg
 :align: center
 :alt: screenshot of file 3
 ```
