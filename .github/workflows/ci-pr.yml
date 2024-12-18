@@ -1,0 +1,72 @@
+# This action runs when a pull request to main is created or updated
+# (but not when it is merged into main).
+
+name: CI on pull request create or update
+on:
+  pull_request_target:
+    branches:
+      - main
+    types: [opened, reopened, synchronize]
+  workflow_dispatch:
+
+env:
+  FORCE_COLOR: "1"  # Make tool output pretty.
+  PIP_DISABLE_PIP_VERSION_CHECK: "1"
+  PIP_PROGRESS_BAR: "off"
+  LOGLEVEL: "DEBUG"
+  RUN_URL: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID
+
+jobs:
+  build_vocab:
+    name: Test build of documentation
+    # Run on all pull request types except merge which has its own workflow.
+    if: ${{ !github.event.pull_request.merged }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout PR branch into cwd
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          # Checkout the fork/head-repository to push changes to the fork.
+          # Without this the base repository will be checked out and committed to.
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+
+          # Checkout the branch made in the fork.
+          ref: ${{ github.head_ref }}
+
+      - uses: actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          python -VV
+          python -m pip install --upgrade pip
+
+          # install tagged version
+          python -m pip install -r docs/requirements.txt
+
+XXX
+      - name: Set dynamic environment variables.
+        run: |
+          echo "RUN_DATE=$(date +'%Y-%m-%dT%H%M')" >> $GITHUB_ENV
+
+      - name: Build Sphinx documentation (website)
+        run: |
+          sphinx-build --nitpicky --fail-on-warning --keep-going docs docs/_build
+          cp -r docs/_build/. publish/
+
+
+      - name: Store publish dir (=pages) as artifact
+        # This step is not required and may be removed.
+        # It may be helpful for trouble shooting.
+        if: ${{ always() }}
+        uses: actions/upload-artifact@50769540e7f4bd5e21e526ee35c689e35e0d6874
+        with:
+          name: docs-build-from-pull-request
+          path: publish/
+          retention-days: 5
+
+# Lit:
+# https://github.com/peaceiris/actions-gh-pages
