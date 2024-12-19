@@ -8,7 +8,7 @@ Welcome to the documentation for the NFDI4Cat Central Data Repository,
 
 a platform dedicated to facilitating the storage, organization, and sharing of research data from catalysis science.
 
-If you have some nice ideas or like to give feedback on how to make things better or easier?
+Do you have some nice ideas or like to give feedback on how to make things better or easier?
 Don't hesitate and **create an [issue](https://github.com/nfdi4cat/repo4cat/issues)** to let us know!
 
 Below you can find the most important information about this repository.
