@@ -2,7 +2,7 @@
 hide-toc: true
 ---
 
-# Repo4Cat Documentation Hub
+# Documentation Hub
 
 This is work in progress...
 
