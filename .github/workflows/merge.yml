@@ -76,7 +76,7 @@ jobs:
         # This step is not required and may be removed.
         # It may be helpful for trouble shooting.
         if: ${{ always() }}
-        uses: actions/upload-artifact@50769540e7f4bd5e21e526ee35c689e35e0d6874
+        uses: actions/upload-artifact@6f51ac03b9356f520e9adb1b1b7802705f340c2b
         with:
           name: repo4cat-gh-pages-content
           path: publish/
