@@ -27,6 +27,7 @@ Below you can find the most important information about this repository.
   * [Roles and permissions](https://guides.dataverse.org/en/latest/user/dataverse-management.html#roles-permissions) (dataverse level)
   * [File management](https://guides.dataverse.org/en/latest/user/dataset-management.html) (dataset level)
 * First steps in NFDI4Cat Central Data Repository, guideline - https://hdl.handle.net/21.11165/4Cat/b4au-u4m3
+* Prepared [training materials with demo repository](https://github.com/nfdi4cat/repo4cat/tree/main/demo-repository#training) will help you to start
 
 ## Demo repository
 
