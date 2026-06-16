@@ -21,6 +21,7 @@ Below you can find the most important information about this repository.
 ## Useful links
 
 * Repository is based on [Dataverse software](https://dataverse.org)
+* See all changes and updates of Repo4Cat in the [changelog](repo4cat_changelog.md)
 * Official [Dataverse documentation](https://guides.dataverse.org/en/latest/), especially:
   * [User Guide](https://guides.dataverse.org/en/latest/user/index.html)
   * [Collection management](https://guides.dataverse.org/en/latest/user/dataverse-management.html) (dataverse/dataset level)
