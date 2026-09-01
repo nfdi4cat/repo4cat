@@ -1,8 +1,11 @@
-***Repo4Cat (NFDI4Cat Central Data Repository) changelog***
+***Repo4Cat (NFDI4Cat Central Data Repository) Changelog***
+
+----
+----
 
 # 2026-09-01: Dataverse Update, v6.11
 
-## The most important changes
+## The Most Important Changes
 
 #### 1. Improved Support for Handles as Persistent IDs - !!!
 * When PID registration of persistent IDs for files is enabled, Dataverse will create the handle as soon as the file is created (similar to other persistent ID providers) (issue #12174 - https://github.com/IQSS/dataverse/issues/12174)
@@ -46,15 +49,16 @@
 #### 9. The Big Data Support page has been moved from the Developer Guide to the Installation Guide.
 * https://guides.dataverse.org/en/6.11/installation/big-data-support.html
 
-## API updates
-* check your commonly used API calls with the current state: https://guides.dataverse.org/en/6.11/api/native-api.html
+## API Updates
+* See "API Updates" here: https://github.com/IQSS/dataverse/releases/tag/v6.11
+* Check your commonly used API calls with the current state of API: https://guides.dataverse.org/en/6.11/api/native-api.html
 
-## Full list of changes
+## API Incompatibility Changelog (Breaking Changes)
+* https://guides.dataverse.org/en/6.11/api/changelog.html
+
+## Full List of Changes
 * All releases in one place: https://github.com/IQSS/dataverse/releases
 * 6.11 - https://github.com/IQSS/dataverse/releases/tag/v6.11
-
-## API incompatible changelog
-* https://guides.dataverse.org/en/6.11/api/changelog.html
 
 ----
 ----
@@ -215,7 +219,7 @@
 * APIs and a new "review" metadata block (with an "Item Reviewed" field) are in place but the UI for this feature will only be available in a future version of the new React-based Dataverse Frontend (see #876). 
 * See https://guides.dataverse.org/en/6.10.1/user/dataset-management.html#review-datasets. This feature is experimental.
 
-#### 29. API changes
+## API Changes
 
 * New Featured Collections: https://guides.dataverse.org/en/6.10.1/api/native-api.html#list-featured-collections-for-a-dataverse-collection
 
@@ -314,7 +318,10 @@
 * The "File Version Differences" and "Dataset Version Summaries" API endpoints have been improved with pagination support (with limit and offset parameters), performance improvements, and a bug fix.
   * https://guides.dataverse.org/en/6.10.1/api/native-api.html#get-versions-of-a-dataset-with-summary-of-changes
 
-## Full list of changes
+## API Incompatibility Changelog (Breaking Changes)
+* https://guides.dataverse.org/en/6.10.1/api/changelog.html
+
+## Full List of Changes
 * All releases in one place: https://github.com/IQSS/dataverse/releases
 * 6.3 - https://github.com/IQSS/dataverse/releases/tag/v6.3
 * 6.4 - https://github.com/IQSS/dataverse/releases/tag/v6.4
@@ -324,6 +331,3 @@
 * 6.8 - https://github.com/IQSS/dataverse/releases/tag/v6.8
 * 6.9 - https://github.com/IQSS/dataverse/releases/tag/v6.9
 * 6.10 (6.10.1) - https://github.com/IQSS/dataverse/releases/tag/v6.10
-
-## API incompatible changelog
-* https://guides.dataverse.org/en/6.10.1/api/changelog.html
