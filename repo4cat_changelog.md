@@ -1,5 +1,64 @@
 ***Repo4Cat (NFDI4Cat Central Data Repository) changelog***
 
+# 2026-09-01: Dataverse Update, v6.11
+
+## The most important changes
+
+#### 1. Improved Support for Handles as Persistent IDs - !!!
+* When PID registration of persistent IDs for files is enabled, Dataverse will create the handle as soon as the file is created (similar to other persistent ID providers) (issue #12174 - https://github.com/IQSS/dataverse/issues/12174)
+  * *See Repo4Cat issue:* https://github.com/nfdi4cat/repo4cat/issues/49
+* When a new handle is created for a dataset or file that is still a draft, it will be reserved and registered, but not visible publicly. The handle will become visible and the redirects will start working once it is published. This is also in line with how DOI providers work (issue #8881 - https://github.com/IQSS/dataverse/issues/8881)
+  * *See Repo4Cat issue:* https://github.com/nfdi4cat/repo4cat/issues/30
+
+#### 2. Submit for Review Improvements
+* A disclaimer message and custom text can be added to the "Submit for Review" dialog, similar to Publish disclaimer messages.
+* When requireFilesToPublishDataset (added in #10994 in Dataverse 6.6) is set on a collection, a dataset must contain files for the Submit for Review button to appear. As before, publishing is also prevented if no files are present.
+* https://guides.dataverse.org/en/6.11/installation/config.html#submitforreviewdatasetdisclaimertext
+* https://guides.dataverse.org/en/6.11/installation/config.html#datasetsubmitforreviewpopupcustomtext
+* https://github.com/IQSS/dataverse/issues/12325 & https://github.com/IQSS/dataverse/pull/12373
+* *See Repo4Cat issue:* https://github.com/nfdi4cat/repo4cat/issues/97
+
+#### 3. Original Tabular File Format Shown (Rather Than .tab) - !!!
+* In previous releases of Dataverse, the file, dataset, and collection pages showed the .tab version of tabular files (a plain text preservation-friendly copy). This has been changed to show the original format instead (e.g. Excel, Stata, etc.). The .tab version is still available from the download menu.
+* https://github.com/IQSS/dataverse/pull/12145
+* https://github.com/IQSS/dataverse/issues/7956
+* *See Repo4Cat issue:* https://github.com/nfdi4cat/repo4cat/issues/52 
+
+#### 4. Local Reviews
+* Datasets can have local reviews, listable via API. A local review is a review dataset ("review" for short) that points at the URL form of a persistent ID of a dataset (e.g. itemReviewedUrl:https://doi.org/10.5072/FK2/ABCDEF) that is in the same Dataverse installation. Local reviews of a dataset can be listed via API (and we plan to build a UI for it some day).
+* https://guides.dataverse.org/en/6.11/api/native-api.html#list-reviews
+
+#### 5. Show Historical File Access Requests
+* A new checkbox called "Show Historical Requests" has been added to the permissions page for a data file. Checking the box will show the number of times each user has been granted or denied access.
+* https://github.com/IQSS/dataverse/issues/8013 & https://github.com/IQSS/dataverse/pull/12266
+
+#### 6. Locally FAIR Data
+* Experimental support for "Locally FAIR" data. When enabled, this feature allows publication of content that will be visible only to authorized users or groups within a Dataverse installation. Users without authorization will not see the Locally FAIR collections, datasets, or files in search results and cannot visit their pages or access them via the Dataverse API.
+* https://guides.dataverse.org/en/6.11/user/dataverse-management.html#locally-fair
+* https://github.com/IQSS/dataverse/pull/12319
+
+#### 7. Croissant 1.1 (Summary Statistics)
+* https://guides.dataverse.org/en/6.11/user/dataset-management.html#supported-metadata-export-formats
+
+#### 8. A list of Dataverse features has been added to the guides
+* https://guides.dataverse.org/en/6.11/admin/features.html
+
+#### 9. The Big Data Support page has been moved from the Developer Guide to the Installation Guide.
+* https://guides.dataverse.org/en/6.11/installation/big-data-support.html
+
+## API updates
+* check your commonly used API calls with the current state: https://guides.dataverse.org/en/6.11/api/native-api.html
+
+## Full list of changes
+* All releases in one place: https://github.com/IQSS/dataverse/releases
+* 6.11 - https://github.com/IQSS/dataverse/releases/tag/v6.11
+
+## API incompatible changelog
+* https://guides.dataverse.org/en/6.11/api/changelog.html
+
+----
+----
+
 # 2026-06-14: Dataverse Update, v6.2-v6.10.1
 
 ## The most important changes
