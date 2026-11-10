@@ -7,7 +7,20 @@ updates:
     directory: "/"
     schedule:
       interval: monthly
+    cooldown:
+      default-days: 7
     groups:
       github-actions:
+        patterns:
+          - "*"
+
+  - package-ecosystem: pip
+    directory: "/docs"
+    schedule:
+      interval: monthly
+    cooldown:
+      default-days: 7
+    groups:
+      docs-dependencies:
         patterns:
           - "*"
